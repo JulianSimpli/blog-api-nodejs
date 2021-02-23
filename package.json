@@ -1,0 +1,25 @@
+{
+  "name": "blog-api-nodejs",
+  "version": "1.0.0",
+  "description": "A blog developed with NodeJS, ExpressJS, Sequelize and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianSimpli/blog-api-nodejs.git"
+  },
+  "author": "Julian Simplituca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianSimpli/blog-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/JulianSimpli/blog-api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
