@@ -1,5 +1,11 @@
 const express = require('express');
 const routes = require('./routes');
+const db = require('./config/db');
+
+require('./models/Post');
+db.sync()
+    .then(() => console.log(`Connected to server`))
+    .catch(err => console.log(err));
 
 const app = express();
 
