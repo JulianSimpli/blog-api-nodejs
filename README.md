@@ -4,7 +4,7 @@ A blog application developed with MVC, NodeJS, ExpressJS, Sequelize and MySQL
 ## Run server
 > npm run start
 
-## Endopoints  
+## Endpoints  
 ### POST /posts
 Ex.
 > {  
