@@ -1,13 +1,20 @@
+const db = require('./config/db');
 const express = require('express');
 const routes = require('./routes');
-const db = require('./config/db');
+
+// server create
+const app = express();
+
+// parse requests of content-type - application/json
+app.use(express.json());
+
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }));
 
 require('./models/Post');
 db.sync()
     .then(() => console.log(`Connected to server`))
     .catch(err => console.log(err));
-
-const app = express();
 
 app.use('/', routes());
 
