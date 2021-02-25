@@ -8,6 +8,7 @@ module.exports = function() {
     router.get('/posts', postsController.allPosts);
     router.get('/posts/:id', postsController.findOnePost);
     router.patch('/posts/:id', postsController.updatePost);
+    router.delete('/posts/:id', postsController.deletePost);
 
     return router;
 }
