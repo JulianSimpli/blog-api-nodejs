@@ -17,10 +17,10 @@ Ex.
 - ### GET /posts/:id
 - ### PATCH /posts/:id
 Ex.
-> {
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"title": "Title updated",
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"content": "Content updated",
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"image": "/imageUpdated.png",
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"category": "Category updated"
+> {  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"title": "Title updated",  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"content": "Content updated",  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"image": "/imageUpdated.png",  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"category": "Category updated"  
 > }
 - ### DELETE /posts/:id
